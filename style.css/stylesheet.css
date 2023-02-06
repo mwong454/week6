@@ -10,3 +10,25 @@ h2+p{
     border-bottom: grey solid 1px;
     list-style: none;
 }
+
+li > a:link {
+    color: green;
+}
+
+li > a:visited {
+    color: red;
+}
+
+li > a:hover {
+    color: pink;
+}
+
+li:first-child::first-letter {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+a[href*="https://bcit"] {
+    background: yellow;
+}
+    
